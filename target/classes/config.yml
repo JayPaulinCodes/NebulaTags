@@ -1,0 +1,36 @@
+debug: true
+
+menuTitle: "&f?&5Nebula Tags&f?"
+confirmMenuTitle: "&f?&7Confirm Selection&f?"
+
+Tags:
+  "ExampleTag":
+    name: "Example Tag"
+    formatedName: "&5Example Tag"
+    tag: "&7[&5NebulaTags&7]"
+    description: "A example for how to add tags to the config"
+    permission: "default" # NebulaTags.access.default
+    menuItem:
+      material: "STONE"
+      amount: 1
+      damage: null
+      name: "&cStone of wisdom"
+      lore:
+        - "1"
+        - "2"
+        - "3"
+  "ExampleTag2":
+    name: "Better Example Tag"
+    formatedName: "&5Cooler Tag"
+    tag: "&7[&5&lNebulaTags&7]"
+    description: "A example for how to add tags to the config"
+    permission: "elite" # NebulaTags.access.elite
+    menuItem:
+      material: "STONE"
+      amount: 1
+      damage: null
+      name: "&cStone of wisdom 2.0!!!"
+      lore:
+        - "1"
+        - "2"
+        - "3"

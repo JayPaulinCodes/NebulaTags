@@ -1,0 +1,14 @@
+name: NebulaTags
+author: Jay
+version: ${project.version}
+main: jay.neubla.tags.TagsPlugin
+
+depend:
+  - PlaceholderAPI
+
+commands:
+  tags:
+    aliases:
+      - tag
+      - selecttags
+      - selecttag
